@@ -31,7 +31,7 @@ function dividir(){
     console.log("Divisão: ")
     var x = Number(document.getElementById("X").value);
     var y = Number(document.getElementById("Y").value);
-    var resultado = Number(x / y).toFixed(4);
+    var resultado = (x / y).toFixed(4);
     console.log("Resultado: "+ resultado);
     document.getElementById("resposta").textContent = resultado;
 }
